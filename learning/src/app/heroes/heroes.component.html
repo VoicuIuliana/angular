@@ -1,0 +1,20 @@
+<p> The id is {{hero.id}} </p>
+<p> The name is {{hero.name.toUpperCase()}} </p>
+<p> The age is {{hero.age}}</p>
+
+<p>What is your name?</p>
+<input #box (keyup.enter)="onEnter(box.value)">
+<p>Hi {{value}}</p>
+
+<p>Give me a number</p>
+<input #box2 (keyup.enter)="onEnter2(box2.value)">
+<p>{{res}}</p>
+
+<p>How old are you?</p>
+<input #box3 (keyup.enter)="onEnter3(box3.value)">
+<p>{{res3}}</p>
+
+<p>Give me a number!</p>
+<input #box4 (keyup.enter)="onEnter4(box4.value)">
+<p>{{res4}}</p>
+
