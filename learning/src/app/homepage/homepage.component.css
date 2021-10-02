@@ -1,0 +1,31 @@
+.t{
+    text-align: center;
+}
+.t{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 50px;
+}
+.form{
+    height: 50px;
+    color:rgb(11, 126, 46);
+}
+.form2{
+    border-radius: 5px;
+    border-style: solid;
+}
+table,th,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    /* margin-left: 1000px; */
+    height: 30px;
+    width: 500px;
+}
+.tabel{
+    font-family:fantasy;
+    color: green;
+    font-size: 20px;
+}
+.tabel1{
+    color: green;
+    font-size: 20px;
+}
