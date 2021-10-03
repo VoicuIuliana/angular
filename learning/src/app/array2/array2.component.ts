@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Bird } from './bird';
+import { Cat } from './cat';
+import { Dog } from './dog';
+import { Leopard } from './leopard';
 
 @Component({
   selector: 'app-array2',
@@ -8,7 +12,13 @@ import { Component, OnInit } from '@angular/core';
 export class Array2Component implements OnInit {
 
   a1 : number[] = [2,4,5,6,1,3,2];
-  a2: number[] = [3,4,5,67]
+  a2: number[] = [3,4,5,67];
+
+
+  // dogs:Dog[] = [new Dog('tigri',20), new Dog('negrut',5), new Dog('ursi',10)]
+  cats:Cat[] = [new Cat('kity',4), new Cat('kenzy',8), new Cat('matiza',10)]
+  leopards:Leopard[] = [new Leopard('leo1',70),new Leopard('leo2',40), new Leopard('leo3',50)]
+  birds:Bird[] = [new Bird('bird1',10), new Bird('bird2',20), new Bird ('bird3',30)]
 
   constructor() {
 
